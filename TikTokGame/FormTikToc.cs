@@ -160,7 +160,16 @@ namespace TikTokGame
                     }
                 }
             }
-
+            int count = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                if (moved[i] != 0) count++;
+            }
+            if (count == 9)
+            {
+                MessageBox.Show("        Ничья");
+                Reset();
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -192,7 +201,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
 
         }
@@ -216,7 +225,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -244,7 +253,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -267,7 +276,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -290,7 +299,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -313,7 +322,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -336,7 +345,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -360,7 +369,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
@@ -383,7 +392,7 @@ namespace TikTokGame
             }
             else
             {
-                MessageBox.Show("Ути-пути, сюда незя", "Ошибка Хода");
+                MessageBox.Show("Поле занято", "Ошибка Хода");
             }
         }
 
