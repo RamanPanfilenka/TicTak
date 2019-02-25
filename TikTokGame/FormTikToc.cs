@@ -98,21 +98,21 @@ namespace TikTokGame
                     if (moved[i] == 2 && moved[i + 1] == 2 && moved[i + 2] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
 
                     if (moved[i] == 2 && moved[i + 3] == 2 && moved[i + 6] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
 
                     if (moved[i] == 2 && moved[i + 4] == 2 && moved[i + 8] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
                 }
@@ -121,7 +121,7 @@ namespace TikTokGame
                     if (moved[i] == 2 && moved[i + 3] == 2 && moved[i + 6] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
                 }
@@ -130,14 +130,14 @@ namespace TikTokGame
                     if (moved[i] == 2 && moved[i + 3] == 2 && moved[i + 6] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
 
                     if (moved[i] == 2 && moved[i + 2] == 2 && moved[i + 4] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
                 }
@@ -146,7 +146,7 @@ namespace TikTokGame
                     if (moved[i] == 2 && moved[i + 1] == 2 && moved[i + 2] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
                 }
@@ -155,7 +155,7 @@ namespace TikTokGame
                     if (moved[i] == 2 && moved[i + 1] == 2 && moved[i + 2] == 2)
                     {
                         MessageBox.Show("Победили нолики", "Поздравляем");
-                        label4.Text = (int.Parse(label3.Text) + 1).ToString();
+                        label4.Text = (int.Parse(label4.Text) + 1).ToString();
                         Reset();
                     }
                 }
@@ -434,6 +434,16 @@ namespace TikTokGame
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
         {
 
         }
